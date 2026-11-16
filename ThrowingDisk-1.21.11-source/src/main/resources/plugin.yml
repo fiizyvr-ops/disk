@@ -1,0 +1,13 @@
+name: ThrowingDisk
+version: 1.0.0
+main: com.example.throwingdisk.ThrowingDiskPlugin
+api-version: '1.21'
+description: A returning disk that bounces off blocks and damages mobs and players.
+commands:
+  throwdisk:
+    description: Gives you a Throwing Disk.
+    usage: /throwdisk
+    permission: throwingdisk.use
+permissions:
+  throwingdisk.use:
+    default: true
